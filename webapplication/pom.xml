@@ -17,7 +17,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+<distributionManagement>
+    <snapshotRepository>
+      <id>deployment</id>
+      <name>1.0-SNAPSHOT</name>
+      <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <repository>
+      <id>delpoyment</id>
+      <name>1.0</name>
+      <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
   <build>
     <finalName>webapplication</finalName>
   </build>
