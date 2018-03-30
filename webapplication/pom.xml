@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.raj.rns</groupId>
   <artifactId>webapplication</artifactId>
-  
+  <packaging>war</packaging>
   <version>1.0</version>
  
  <name>webapplication Maven Webapp</name>
@@ -24,7 +24,7 @@
       <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>delpoyment</id>
+      <id>delpoyment1</id>
       <name>1.0</name>
       <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/releases/</url>
     </repository>
