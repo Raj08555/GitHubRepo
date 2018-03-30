@@ -24,7 +24,7 @@
       <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>delpoyment1</id>
+      <id>deployment</id>
       <name>1.0</name>
       <url>http://192.168.178.128:8081/nexus-2.11.4-01/content/repositories/releases/</url>
     </repository>
