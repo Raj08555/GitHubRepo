@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.raj.rns</groupId>
   <artifactId>webapplication</artifactId>
-  <packaging>war</packaging>
+  
   <version>1.0</version>
  
  <name>webapplication Maven Webapp</name>
